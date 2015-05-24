@@ -1,0 +1,69 @@
+@font-face {
+   font-family: Pacifico;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../Fonts/Pacifico.ttf);
+}
+
+@font-face {
+   font-family: Lato;
+   font-style: normal;
+   font-weight: normal;
+   src: url(../Fonts/Lato-Regular.ttf);
+}
+
+body{
+	font-family: 'Lato';
+}
+
+img{
+	width:100%;
+}
+
+h1,h2{
+	font-family: 'Pacifico', cursive;
+}
+
+a{
+	color: #009FFF;
+	font-size: 18 px;
+}
+
+.quitar-float{
+	float: none;
+}
+
+.espacio-arriba{
+	margin-top: 50px;
+}
+
+.verde{
+	color: #00887C;
+}
+
+.espacio-derecha{
+	margin-right: 1em;
+}
+
+.no-lista{
+	margin: 0;
+	padding: 0;
+}
+
+.no-lista li{
+	list-style: none;
+}
+
+.se-gris{
+	background-color: #eee;
+}
+
+.padding-largo{
+	padding: 5px 10px;
+}
+
+.inline-block{
+	float: none;
+	display: inline-block;
+}
+
