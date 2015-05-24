@@ -18,13 +18,14 @@ body{
 
 img{
 	width:100%;
+	border-radius: 5px;
 }
 
 h1,h2{
 	font-family: 'Pacifico', cursive;
 }
 
-a{
+a,.azul{
 	color: #009FFF;
 	font-size: 18 px;
 }
@@ -39,6 +40,14 @@ a{
 
 .verde{
 	color: #00887C;
+}
+
+.Pacifico{
+	font-family: "Pacifico";
+}
+
+.grande{
+	font-size: 40px;
 }
 
 .espacio-derecha{
@@ -65,5 +74,31 @@ a{
 .inline-block{
 	float: none;
 	display: inline-block;
+	margin-left: -4px;
 }
 
+.vete-arriba{
+	vertical-align: top;
+}
+
+.mediano{
+	font-size: 1.5em;
+}
+
+.retraso-1{
+	-webkit-animation-delay: 0.5s;
+	-o-animation-delay: 0.5s;
+	animation-delay: 0.5s;
+}
+
+.retraso-2{
+	-webkit-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
+}
+
+.retraso-3{
+	-webkit-animation-delay: 2s;
+	-o-animation-delay: 2s;
+	animation-delay: 2s;
+}
